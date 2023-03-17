@@ -27,6 +27,7 @@ h1 {
 }
 
 main p {
+    text-align: center;
     padding: 20px 10px;
 }
 
@@ -60,20 +61,12 @@ footer p {
 } 
 
 @media (min-width: 568px) and (max-width: 768px) {
-    main p {
-        text-align: center;
-    }
-
     ul {
         padding-left: 25%;
     }
 }
 
 @media (min-width: 769px) {
-    main p {
-        text-align: center;
-    }
-
     h1 {
         padding-bottom: 30px;
     }
