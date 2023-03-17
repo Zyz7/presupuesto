@@ -1,0 +1,81 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Baskervville', serif;
+}
+
+header {
+    height: 70px;
+    background-color: #1b1b32;
+}
+
+main {
+    padding: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+main p {
+    padding: 20px 10px;
+}
+
+ul li {
+    padding: 5px;
+}
+
+ul {
+    padding-left: 5%;
+}
+
+footer {
+    height: 70px;
+    padding: 10px;
+    color: #f5f6f7;
+    font-size: 0.75rem;
+    text-align: center;
+    background-color: #1b1b32;
+}
+
+footer p {
+    padding: 3px;
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
+    ul {
+        padding-left: 15%;
+    }
+} 
+
+@media (min-width: 568px) and (max-width: 768px) {
+    main p {
+        text-align: center;
+    }
+
+    ul {
+        padding-left: 25%;
+    }
+}
+
+@media (min-width: 769px) {
+    main p {
+        text-align: center;
+    }
+
+    h1 {
+        padding-bottom: 30px;
+    }
+
+    ul {
+        padding-left: 35%;
+    }
+}
